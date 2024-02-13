@@ -8,6 +8,4 @@ Welcome to my Homepage!
 [My Sites](/sites.md)
 [Contact](/contact.md)
 
-![](_media/img13z.png)
-
-[color](#f0f0f0)
+![](https://ghimg.wyf9.top/img13z.png)
