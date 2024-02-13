@@ -2,9 +2,7 @@
 
 # wyf9's Home
 
-Welcome to my Homepage!
-
-[My Sites](/sites.md)
+[My Sites](#sites)
 [Contact](/contact.md)
 [About](/about.md)
 [GitHub](https://github.com/wyf9)
