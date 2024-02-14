@@ -1,5 +1,7 @@
 Welcome to my Homepage!
 
+***
+
 # Sites
 
 个人搭建的部分公开站点:
@@ -12,11 +14,15 @@ Welcome to my Homepage!
 - [一些网页](https://github.com/wyf01239/pages)(p.wyf9.top)
 - [状态页](https://status.wyf9.top)(status.wyf9.top)
 
+***
+
 # Projects
 
 > 一些没~~什么~~人看的项目
 
 [个人 GitHub](https://github.com/wyf9?tab=repositories) or [组织 GitHub](https://github.com/orgs/wyf01239/repositories)
+
+***
 
 # Contact
 
@@ -29,7 +35,15 @@ Welcome to my Homepage!
 - Discord 群组: [邀请链接](https://discord.com/invite/Geruk983EH)
 - [E-mail](mailto:wyf9@wyf9.top): `wyf9@wyf9.top`
 
+***
+
 # About
+
+友情链接: 暂无
+
+> 可[联系](#contact)添加
+
+***
 
 <div id=wyear>Copyright ©(year) wyf9. All Rights Reserved.</div>
 
