@@ -30,7 +30,6 @@ Welcome to my Homepage!
 
 - GitHub @wyf9 (上面有)
 - [GitHub 组织](https://github.com/wyf01239) @wyf01239
-- QQ: `2191161566` or `wyf9gh114`，请注明添加理由
 - Discord: @wyf9
 - Discord 群组: [邀请链接](https://discord.com/invite/Geruk983EH)
 - [E-mail](mailto:wyf9@wyf9.top): `wyf9@wyf9.top`
@@ -39,7 +38,7 @@ Welcome to my Homepage!
 
 # About
 
-友情链接: 暂无
+友链: 暂无
 
 > 可[联系](#contact)添加
 
