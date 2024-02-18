@@ -1,4 +1,6 @@
-Welcome to my Homepage!
+# Welcome
+
+[Sites](#sites) / [Projects](#projects) / [Contact](#contact) / [About](#about)
 
 ***
 
@@ -46,8 +48,6 @@ Welcome to my Homepage!
 
 <div id=wyear>Copyright ©(year) wyf9. All Rights Reserved.</div>
 
-<script>
-copyright("wyear");
-</script>
+<script>copyright("wyear");</script>
 
 Powered by [Docsify](https://docsify.js.org)
