@@ -35,16 +35,11 @@
 - Discord: @wyf9
 - Discord 群组: [邀请链接](https://discord.com/invite/Geruk983EH)
 - [E-mail](mailto:wyf9@wyf9.top): `wyf9@wyf9.top`
+- QQ: wyf9gh114
 
 ***
 
 # About
-
-友链: 暂无
-
-> 可[联系](#contact)添加
-
-***
 
 <div id=wyear>Copyright ©(year) wyf9. All Rights Reserved.</div>
 
