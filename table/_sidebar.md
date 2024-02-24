@@ -1,4 +1,3 @@
 - SideBar - table
   - [[Back]](/)
-  - [PyTurtle](/table/pyturtle.md)
-  - [PyCalc](/table/pycalc.md)
+  - [Python Tables](/table/py/)
