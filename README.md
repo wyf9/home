@@ -37,12 +37,4 @@
 - [E-mail](mailto:wyf9@wyf9.top): `wyf9@wyf9.top`
 - QQ: wyf9gh114
 
-***
-
 # About
-
-<div id=wyear>Copyright ©(year) wyf9. All Rights Reserved.</div>
-
-<script>copyright("wyear");</script>
-
-Powered by [Docsify](https://docsify.js.org)
