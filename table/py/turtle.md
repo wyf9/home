@@ -15,7 +15,7 @@
 | `setup` | [int:`x`], [int:`y`] | 打开窗口, 设置大小为 (`x`, `y`) |
 |  | [float:`x`(0.xx)], [float:`y`(0.xx)] | 打开窗口, 设置大小为屏幕大小的 (`x`, `y`) |
 |  | [int:`x`], [int:`y`], [int:`sx`], [int:`sy`] | 打开窗口, 设置大小为 (`x`, `y`), 窗口位置为 (`sx`, `sy`) |
-| `screensize` | (int:`x`), (int:`y`), [str:`color`] | 设置窗口的大小为 (`x`, `y`),  |
+| `screensize` | (int:`x`), (int:`y`), [str:`color`] | 设置窗口的大小为 (`x`, `y`), 并设置背景颜色为 `color` |
 | `done` |  | 结束绘画，并**保留窗口(必备)** |
 | `goto` | (int:`x`), (int:`y`) | 画笔平移到 (`x`, `y`) |
 | `reset` |  | 重置画布, **画笔变为初始状态** |
