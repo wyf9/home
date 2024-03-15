@@ -1,6 +1,6 @@
 # Python Turtle库
 
-一个进行图形绘制的标准库(*不需要额外安装*)
+一个进行图形绘制的标准库(*《不 需 要 额 外 安 装》*)
 
 ?> 画笔初始位置在 `(0, 0)`(中心) 处, 方向朝右
 
@@ -38,6 +38,9 @@
 | `dot` | [`d`], (str:`color`) | 画 **直径**为 `d` 像素, `color` 色的原点 (默认直径: [`pensize+4` / `2*pensize` *(取最大)*]) |
 | `circle` | (int:`r`), [int:`o`], [int:`n`] | 半径为 `r`, 度数为 `o` *(默认: 360)* , 边数为 `n` 的正多边形 **(`r` ≠ 边长)** |
 |  | (`r`), [`steps`=`n`] | 画半径为 `r`, 边数为 `n` 的正多边形 **(`r` ≠ 边长)** |
+| `listen` |  | 开始监听点击事件 **(执行后才能使 `onscreenclick` 和 `onkeypress` 生效)** |
+| `onscreenclick` | (func:`function`) | 在鼠标点击屏幕时调用 `function` 函数并传参, *如: `turtle.onscreenclick(turtle.goto)`* |
+| `onkeypress` | (func:`function`), (str:`key`) | 在 `key` 键被按下时执行 `function` 函数 |
 
 ### 常见颜色
 
