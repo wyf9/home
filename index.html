@@ -40,7 +40,7 @@
                 function(hook, vm) {
                     hook.beforeEach(function(html) {
                         var url = 'https://github.com/wyf9/home/blob/main/' + vm.route.file;
-                        var editHtml = '📝 [在 GitHub 上编辑](' + url + ')\n\n';
+                        var editHtml = '📝 [在 GitHub 上编辑](' + url + ')';
                         
                         const ctext = "Copyright ©(year) [wyf9](https://wyf9.top). All Rights Reserved.";
                         const powered = "Powered by [Docsify](https://docsify.js.org)"
@@ -51,6 +51,7 @@
                             html +
                             '\n\n----\n\n' +
                             editHtml +
+                            '\n\n' +
                             rtxt +
                             '\n\n' +
                             powered

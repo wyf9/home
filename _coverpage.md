@@ -2,10 +2,11 @@
 
 # wyf9's Home
 
-[My Sites](#sites)
+[Sites](#sites)
 [Projects](#projects)
 [Contact](#contact)
-[About](#about)
+<!--
 [GitHub](https://github.com/wyf9)
 
 ![](https://ghimg.wyf9.top/img13z.png)
+-->
