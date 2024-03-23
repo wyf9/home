@@ -1,23 +1,23 @@
 # Python 基本/语法
 
-## About Python
+## Python 基础知识
 
 ### 语言类型
 
 1. 编译语言: 先编译再执行
   - 运行速度快
   - 编译麻烦, 编译后的文件兼容性差
-2. √脚本语言: 在执行时解释
-  - 兼容性好, 可以在任何带有相同解释器的设备平台上运行
+2. **√脚本语言: 在执行时解释**
+  - 兼容性好, **可以在任何带有相同解释器的设备平台上运行**
   - 速度稍慢
 
 ### Python 特点
 
 1. 支持函数
-2. 面向对象
+2. 面向**对象**
 3. 高级语言
 4. 脚本语言
-5. 跨平台
+5. **跨平台**
 
 ### 开发工具
 
@@ -26,18 +26,20 @@
 1. PyCharm
   - 功能强大
   - 学习困难
-2. Visual Studio Code (VSCode)
+2. **Visual Studio Code (VSCode)**
   - 多语言
 3. Jupyter Notebook
   - 交互式
+
+!> 常见错误: Word 没有执行 Python 程序的能力
  
 #### IDLE
 
 1. 交互式 *(高版本默认)*
   - 即写即执行
   - 无法保存
-  - 由 `>>>` 开始
-  - 会显示版本等信息
+  - 有 `>>> ` 提示符
+  - 会显示 版本/分支/构建日期/构建方式 等信息
 
 | 退出方式 | Windows | MacOS |
 | --- | --- | --- |
@@ -54,13 +56,19 @@
 
 打开方式(IDLE Shell): `Ctrl` + `N` or `File` -> `New`
 
-运行: `Run` -> `Run Module`, 如未保存可保存
+运行:
 
-?> 后缀名: `.py`, `.pyw`, `.pyi`
+1. (IDLE 中) `Run` -> `Run Module`, 如未保存可保存
+
+2. 命令: `<python> <脚本名>`
+
+- 常见的 Python 命令名: `py`(Windows) / `python` / `python3` / `python*.**`(版本号)
+
+?> 脚本后缀: `.py`, `.pyw`, `.pyi`
 
 ## print 语句
 
-每个 `print()` 语句输出的内容都占一行
+默认情况下, 每个 `print()` 语句输出的内容都占一行
 
 ```py
 >>> print(123); print(456)
@@ -84,7 +92,7 @@
 >>> print(123, end='hello'); print(456) # 也可改为其他内容
 123hello456
 
->>> print(123, end='\n'); print(456) # 换行符表示为 \n
+>>> print(123, end='\n'); print(456) # 换行符表示为 \n (end 的默认值)
 123
 456
 ```
@@ -97,9 +105,11 @@
 print('''Hello
 World,
 UserName!''')
+```
 
-# ↓ 结果
+↓
 
+```
 Hello
 World,
 UserName!
