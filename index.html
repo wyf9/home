@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://ghsrc.wyf9.top/docsify/css/vue.css">
     <meta http-equiv="Cache-Control" content="max-age=0">
+    <meta name='description' content="wyf9's Homepage">
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
 </head>
 
@@ -40,7 +41,7 @@
                 function(hook, vm) {
                     hook.beforeEach(function(html) {
                         var url = 'https://github.com/wyf9/home/blob/main/' + vm.route.file;
-                        var editHtml = '📝 [在 GitHub 上编辑](' + url + ')';
+                        var editHtml = '📝 [在 GitHub 上编辑 / Edit on GitHub](' + url + ')';
                         
                         const ctext = "Copyright ©(year) [wyf9](https://wyf9.top). All Rights Reserved.";
                         const powered = "Powered by [Docsify](https://docsify.js.org)"
