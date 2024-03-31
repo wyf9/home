@@ -16,7 +16,7 @@
 2. 1970年代 - 图形用户界面(`GUI`)的发展:
    - 1970年代,随着图形显示设备的出现,计算机图形学进入了一个新的阶段。研究人员开始开发图形用户界面(`GUI`),使用户可以通过图形化元素与计算机进行交互。这为图形化编程提供了重要的技术基础。
 
-[早期的 GUI](https://ghimg.wyf9.top/home/homework/comp20240401/1oldgui.jpg)
+![早期的 GUI](https://ghimg.wyf9.top/home/homework/comp20240401/1oldgui.jpg)
 
 *(早期 MacOS GUI)* [1.]
 
@@ -26,18 +26,18 @@
 4. 1990年代 - 图形化编程的广泛应用:
    - 1990年代,随着计算机硬件性能的提升和软件技术的进步,图形化编程工具得到了进一步发展。`Scratch`、`App Inventor`等工具开始广泛应用于编程教育和应用开发领域。
 
-[Scratch](https://ghimg.wyf9.top/home/homework/comp20240401/2scratcheditor.png)
+![Scratch](https://ghimg.wyf9.top/home/homework/comp20240401/2scratcheditor.png)
 
 *(Scratch 界面)* [2.]
 
-[App Inventor](https://ghimg.wyf9.top/home/homework/comp20240401/3appinventor.png)
+![App Inventor](https://ghimg.wyf9.top/home/homework/comp20240401/3appinventor.png)
 
 *(App Inventor 界面)* [3.]
 
 5. 2000年代至今 - 图形化编程的持续创新:
    - 进入21世纪,图形化编程继续保持创新,出现了`Blockly`、`Node-RED`等新型工具。同时,图形化编程也开始融入人工智能、机器学习等前沿技术,为编程带来新的可能性。
 
-[Blockly 界面](https://ghimg.wyf9.top/home/homework/comp20240401/4blockly.png)
+![Blockly 界面](https://ghimg.wyf9.top/home/homework/comp20240401/4blockly.png)
 
 *(Blockly 界面)* [4.]
 
@@ -54,7 +54,9 @@
    - 简单游戏创作:无需深入的编程知识,就可以利用图形化编程工具开发出简单有趣的游戏。
    - 教育游戏开发:将图形化编程与游戏设计相结合,开发具有教育价值的游戏。
 
-[Scratch Game](https://ghimg.wyf9.top/home/homework/comp20240401/5scratchgame.jpg)
+![Scratch Game](https://ghimg.wyf9.top/home/homework/comp20240401/5scratchgame.jpg)
+
+*(Scratch 游戏)* [5.]
 
 3. 科学研究应用:
    - 数据分析可视化:使用图形化编程工具,科学研究人员可以更直观地进行数据分析和可视化。
@@ -103,4 +105,4 @@
 
 > or:
 
-[wyf9s home](https://wyf9.top :include :type=iframe)
+[wyf9s home](https://wyf9.top ':include :type=iframe')
