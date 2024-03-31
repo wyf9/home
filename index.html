@@ -63,7 +63,7 @@ function parseDate(input) {
                         // 计算时间差
                         const timeDiff = Math.abs(today.getTime() - startDate.getTime());
                         const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 将毫秒转换为天数并向上取整
-                        const dateDiff = "本站已运行 ${diffDays} 天"
+                        const dateDiff = `本站已运行 ${diffDays} 天`
                         
                         return (
                             html +

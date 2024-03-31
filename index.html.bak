@@ -58,7 +58,7 @@ function parseDate(input) {
                         const rtxt = ctext.replace('(year)', currentYear);
                         
                         // 创建某日和今天的日期对象
-                        const startDate = parseDate('2024-02-15'); // 替换为您要计算的某日
+                        const startDate = parseDate('2024-02-13'); // 替换为您要计算的某日
                         const today = new Date();
                         // 计算时间差
                         const timeDiff = Math.abs(today.getTime() - startDate.getTime());
