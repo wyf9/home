@@ -13,6 +13,16 @@
 
 <script src="https://ghsrc.wyf9.top/jsc/dayjs.min.js"></script>
 
+<script>
+// 创建某日和今天的 Day.js 对象
+const startDate = dayjs('2024-02-13'); // 替换为您要计算的某日
+const today = dayjs();
+// 计算时间差
+const diffDuration = dayjs.duration(today.diff(startDate));
+// 将时间差格式化为指定的字符串
+formattedDiff = diffDuration.format('本站已运行 YYYY 年 M 月 D 日');
+</script>
+
 <body>
     <div id="app">Loading</div>
     <script>
@@ -50,13 +60,7 @@
                         const currentYear = new Date().getFullYear();
                         const rtxt = ctext.replace('(year)', currentYear);
                         
-                        // 创建某日和今天的 Day.js 对象
-                        const startDate = dayjs('2024-02-13'); // 替换为您要计算的某日
-                        const today = dayjs();
-                        // 计算时间差
-                        const diffDuration = dayjs.duration(today.diff(startDate));
-                        // 将时间差格式化为指定的字符串
-                        const formattedDiff = diffDuration.format('本站已运行 YYYY 年 M 月 D 日');
+                        
                         
                         return (
                             html +
