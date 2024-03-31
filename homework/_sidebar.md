@@ -1,3 +1,4 @@
 - SideBar - /homework
   - [[Back](/)
   - [MiddleArtHomeworks](/homework/art.md)
+  - [MiddleComputerHomeworks](/homework/comp.md)
