@@ -18,6 +18,16 @@ function parseDate(input) {
     // 注意：月份需要减去 1，因为 JavaScript 中月份是从 0 开始计数的
     return new Date(parts[0], parts[1] - 1, parts[2]);
 }
+
+function getSentence() {
+    fetch('https://v1.hitokoto.cn')
+      .then(response => response.json())
+      .then(data => {
+        sentence = `\n\n[${data.hitokoto}](https://hitokoto.cn/?uuid=${data.uuid})`
+        return sentence
+      })
+      .catch(console.error)
+}
 </script>
 
 <body>
@@ -65,12 +75,7 @@ function parseDate(input) {
                         const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 将毫秒转换为天数并向上取整
                         const dateDiff = `本站已运行 ${diffDays} 天`
                         
-                            fetch('https://v1.hitokoto.cn')
-                              .then(response => response.json())
-                              .then(data => {
-                                sentence = `\n\n[${data.hitokoto}](https://hitokoto.cn/?uuid=${data.uuid})`
-                              })
-                              .catch(console.error)
+                            
                         return (
                             html +
                             '\n\n----\n\n' +
@@ -80,7 +85,7 @@ function parseDate(input) {
                             '\n\n' +
                             powered +
                             '\n\n' +
-                            dateDiff + sentence
+                            dateDiff + getSentence()
                         );
                     });
                 }
