@@ -65,6 +65,12 @@ function parseDate(input) {
                         const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 将毫秒转换为天数并向上取整
                         const dateDiff = `本站已运行 ${diffDays} 天`
                         
+                            fetch('https://v1.hitokoto.cn')
+                              .then(response => response.json())
+                              .then(data => {
+                                sentence = `\n\n[${data.hitokoto}](https://hitokoto.cn/?uuid=${data.uuid})`
+                              })
+                              .catch(console.error)
                         return (
                             html +
                             '\n\n----\n\n' +
@@ -74,7 +80,7 @@ function parseDate(input) {
                             '\n\n' +
                             powered +
                             '\n\n' +
-                            dateDiff
+                            dateDiff + sentence
                         );
                     });
                 }
