@@ -28,3 +28,4 @@
 - Discord: @wyf9 / [服务器邀请链接](https://discord.com/invite/Geruk983EH)
 - [E-mail](mailto:wyf9@wyf9.top): `wyf9@wyf9.top`
 - QQ: wyf9gh114
+- WeChat: wyf91146
