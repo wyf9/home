@@ -1,11 +1,11 @@
 - SideBar - note / cpp
-  - [ReadMe](/note/cpp/)
-  - [[Back]](/note/)
-  - [QuickStart](/note/cpp/quickstart.md)
+  - [ReadMe](README.md)
+  - [[Back]](../)
+  - [QuickStart](quickstart.md)
 
 - 入门
 
-  - [1. 第一个 C++ 程序](/note/cpp/1.md)
+  - [1. 第一个 C++ 程序](1.md)
 
 - 数据类型
 

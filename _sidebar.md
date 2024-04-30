@@ -1,4 +1,4 @@
 - SideBar
-  - [Home](/)
-  - [Note](/note/)
-  - [Homeworks](/homework/)
+  - [Home](README.md)
+  - [Note](note/)
+  - [Homeworks](homework/)

@@ -1,0 +1,4 @@
+- SideBar - table
+  - [[Back]](/)
+  - [Python Tables](/note/py/)
+  - [C++ Notes](/note/cpp/)

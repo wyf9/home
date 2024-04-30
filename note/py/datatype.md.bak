@@ -85,7 +85,7 @@ NameError: name 'a' is not defined. Did you mean: 'A'? # 原因: A ≠ a
 
 ### 赋值符号
 
-[Here](calc?id=赋值运算)
+[Here](/table/py/calc?id=赋值运算)
 
 ### 多句代码
 

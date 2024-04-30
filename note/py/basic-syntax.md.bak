@@ -62,7 +62,7 @@
 
 2. 命令: `<python> <脚本名>`
 
-- 常见的 Python 命令名: `py` / `python` / `python3` / `python*.**`(版本号)
+- 常见的 Python 命令名: `py`(Windows) / `python` / `python3` / `python*.**`(版本号)
 
 ?> 脚本后缀: `.py`, `.pyw`, `.pyi`
 

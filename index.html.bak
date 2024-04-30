@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://ghsrc.wyf9.top/docsify/css/vue.css">
+    <script src="https://ghsrc.wyf9.top/docsify/vue.global.prod.js"></script>
     <meta http-equiv="Cache-Control" content="max-age=0">
     <meta name='description' content="wyf9's Homepage">
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
@@ -53,7 +54,7 @@ function parseDate(input) {
                         var editHtml = '📝 [在 GitHub 上编辑 / Edit on GitHub](' + url + ')';
                         
                         const ctext = "Copyright ©(year) [wyf9](https://wyf9.top). All Rights Reserved.";
-                        const powered = "Powered by [Docsify](https://docsify.js.org)"
+                        const powered = "Powered by [Docsify](https://docsify.js.org) / [Cloudflare Pages](https://pages.cloudflare.com)"
                         const currentYear = new Date().getFullYear();
                         const rtxt = ctext.replace('(year)', currentYear);
                         
@@ -63,8 +64,19 @@ function parseDate(input) {
                         // 计算时间差
                         const timeDiff = Math.abs(today.getTime() - startDate.getTime());
                         const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 将毫秒转换为天数并向上取整
-                        const dateDiff = "本站已运行 ${diffDays} 天"
+                        const dateDiff = `本站已运行 ${diffDays} 天`
                         
+                        /*fetch('https://v1.hitokoto.cn')
+                          .then(response => response.json())
+                          .then(data => {
+                            if (data.from_who == null) {
+                              sentence = `\n\n${data.hitokoto} --「${data.from}」 [[Hitokoto]](https://hitokoto.cn/?uuid=${data.uuid})`
+                            }
+                            else {
+                              sentence = `\n\n${data.hitokoto} -- ${data.from_who}「${data.from}」[[Hitokoto]](https://hitokoto.cn/?uuid=${data.uuid})`
+                          }})
+                          .catch(console.error)
+                            */
                         return (
                             html +
                             '\n\n----\n\n' +
@@ -74,7 +86,7 @@ function parseDate(input) {
                             '\n\n' +
                             powered +
                             '\n\n' +
-                            dateDiff
+                            dateDiff// + sentence
                         );
                     });
                 }
@@ -101,7 +113,7 @@ function parseDate(input) {
     <script src="https://ghsrc.wyf9.top/js/copym.js" defer></script>
     <script src="https://ghsrc.wyf9.top/js/copyright.js"></script>
 
-    <!-- Prism Code Hightlight -->
+    <!-- Prism Code Highlight -->
     <script src="https://ghsrc.wyf9.top/docsify/prism/prism-css.min.js" defer></script>
     <script src="https://ghsrc.wyf9.top/docsify/prism/prism-bash.min.js" defer></script>
     <script src="https://ghsrc.wyf9.top/docsify/prism/prism-batch.min.js" defer></script>
@@ -114,7 +126,7 @@ function parseDate(input) {
     <script src="https://ghsrc.wyf9.top/docsify/prism/prism-ini.min.js" defer></script>
     <script src="https://ghsrc.wyf9.top/docsify/prism/prism-json.min.js" defer></script>
     <script src="https://ghsrc.wyf9.top/docsify/prism/prism-json5.min.js" defer></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-powershell.min.js" defer6></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-powershell.min.js" defer></script>
     <script src="https://ghsrc.wyf9.top/docsify/prism/prism-python.min.js" defer></script>
     <script src="https://ghsrc.wyf9.top/docsify/prism/prism-systemd.min.js" defer></script>
     <script src="https://ghsrc.wyf9.top/docsify/prism/prism-visual-basic.min.js" defer></script>
