@@ -1,4 +1,4 @@
 @echo off
-@set pypath=%1
-@set port=%2
+@set pypath=python
+@set port=3001
 @%pypath% -m http.server %port%

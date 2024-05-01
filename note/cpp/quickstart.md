@@ -4,7 +4,7 @@
 
 <!-- tabs:start -->
 
-#### Windows
+#### **Windows**
 
 1. 下载 `Dev-Cpp` 软件并安装
 
@@ -16,9 +16,9 @@
 
 32 位系统: 请 [自行寻找其他版本](https://cn.bing.com/search?q=dev+cpp+32%E4%BD%8D%E5%AE%89%E8%A3%85)
 
-2. 进行基本配置
+2. (可选)进行基本配置
 
-#### Linux
+#### **Linux**
 
 ?> 以下使用 `Ubuntu` / `Debian` 系分支演示, 其他分支可参考或 [自行搜索](https://cn.bing.com/search?q=linux%E6%90%AD%E5%BB%BAc%2B%2B%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83)
 
@@ -48,9 +48,10 @@ g++ -o myprogram mycode.cpp
 
 即使用 `mycode.cpp` 文件编译出可执行文件 `myprogram`
 
-#### MacOS
+#### **MacOS**
 
 不提供教程, 请 [自行搜索](https://cn.bing.com/search?q=macos%E6%90%AD%E5%BB%BAc%2B%2B%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83)
+
 <!-- tabs:end -->
 
 > -> [1. 第一个 C++ 程序](1.md)

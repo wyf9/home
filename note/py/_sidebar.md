@@ -1,6 +1,6 @@
 - SideBar - table / py
   - [[Back]](../)
-  - [Turtle](py/turtle.md)
-  - [运算](py/calc.md)
-  - [数据类型](py/datatype.md)
-  - [语法](py/basic-syntax.md)
+  - [Turtle](turtle.md)
+  - [运算](calc.md)
+  - [数据类型](datatype.md)
+  - [语法](basic-syntax.md)
