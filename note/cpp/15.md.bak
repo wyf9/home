@@ -1,0 +1,60 @@
+# 布尔类型 `bool`
+
+### 布尔类型只有两种值:
+
+- `true`: 即真 (实际为 `1`)
+- `false`: 即假 (实际为 `0`)
+
+?> 任何非 0 的值都认为是真 (`true`)
+
+### 定义
+
+```cpp
+bool name = value;
+```
+
+`value` 可为: `0`, `1`, `true`, `false`, 甚至是其他数字、\[其他类型的数据\](需要用到[强制类型转换](12.md#强制类型转换))
+
+### 使用
+
+可以进行比较条件等，也可以直接输出:
+
+```cpp
+cout << true << endl;
+cout << false << endl;
+```
+
+<output data-lang="output">
+
+1
+
+0
+
+</output>
+
+### 示例
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    // 1. 创建
+    bool f1 = false; // 0
+    bool f2 = true; // 1
+
+    cout << "f1 = " << f1 << endl;
+    cout << "f2 = " << f2 << endl;
+
+    // 2. 内存大小
+
+    cout << "bool 占用内存空间: " << sizeof(bool);
+
+    return 0;
+}
+```
+
+<output data-lang="output">
+
+</output>
