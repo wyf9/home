@@ -1,6 +1,6 @@
 # Python Turtle库
 
-一个进行图形绘制的标准库(*《不 需 要 额 外 安 装》*)
+一个进行图形绘制的标准库(*《不 需 要 额 外 安 装》* -> 仅指某学习客户端自带的环境中)
 
 ?> 画笔初始位置在 `(0, 0)`(中心) 处, 方向朝右
 
@@ -8,7 +8,7 @@
 
 ### 函数列表
 
-`turtle.`:
+(`turtle.`)
 
 | 名称 | 参数 | 说明 |
 | --- | --- | --- |
@@ -43,6 +43,54 @@
 | `listen` |  | 开始监听点击 / 按键等事件 **(执行后才能使 `onscreenclick` 和 `onkeypress` 类函数生效)** |
 | `onscreenclick` | (func:`function`) | 在鼠标点击屏幕时调用 `function` 函数并传参 (`x`, `y`), *如: `turtle.onscreenclick(turtle.goto)`* |
 | `onkeypress` | (func:`function`), (str:`key`) | 在 `key` 键被按下时执行 `function` 函数 |
+| `tracer` | (bool: `True` / `False`) | 设置追踪(即True时自动追踪更改显示, False时不追踪更改, 需要使用 `update` 来显示) |
+| `update` |  | 更新画面(一般在 `tracer(False)` 时使用) |
+| `write` | (str: `text`), [tuple: font (str: `name`, int: `size`, str: `type`)] | 直接显示文字 ([参数说明](#write)) |
+
+### 状态获取
+
+(`turtle.`)
+
+| 名称 | 参数 | 说明 |
+| --- | --- | --- |
+| `heading()` |  | 目前的画笔方向 (`0` ~ `359`), **注意: 返回的是小数, 如 `30.0`**|
+
+?> 这类获取信息的函数用 `return` 返回数据, 一般需要使用变量存储或进行其他操作, 如:
+
+```py
+angle = turtle.heading() # 存储至 `angle`
+print(turtle.heading()) # 直接打印
+# output: 30.0
+```
+
+
+#### write
+
+示例: `turtle.write('text', font = ('space mono', 20, 'bold'))`
+
+`text`: 要显示的文本
+
+- 常见: `space mono`, `menlo`, `consolas`
+`space mono`: 字体
+`20`: 字号(即字的大小, 与其成正比)
+`bold`: 属性: `normal`(正常), `bold`(加粗), `italic`(倾斜)
+
+!> 注意 `font` 定义顺序
+
+> 可用画笔颜色来控制输出文本的颜色
+
+### `Turtle` 对象
+
+借助 `Turtle` 对象可以实现类似"分身"的效果(即`clear()`等操作都不会影响另一个)
+
+```py
+# 创建
+name = turtle.Turtle() # 初始化对象
+
+# 接下来就可以和一般的 `turtle` 一样使用了
+name.circle(100)
+```
+
 
 ### 常见颜色
 
