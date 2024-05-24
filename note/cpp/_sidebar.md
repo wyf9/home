@@ -1,7 +1,8 @@
 - SideBar - note / cpp
   - [ReadMe](README.md)
-  - [[Back]](../)
   - [QuickStart](quickstart.md)
+  - [[Back]](../)
+
 
 - 入门
 

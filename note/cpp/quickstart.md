@@ -8,31 +8,30 @@
 
 1. 下载 `Dev-Cpp` 软件并安装
 
-?> 建议从作者官网下载最新版本: [devcpp.gitee.io](https://devcpp.gitee.io/)
+?> 作者官网下载: [devcpp.gitee.io](https://devcpp.gitee.io/)
 
+<!--
 下面为旧版本 `5.16i`
 
 64 位系统: [Here](https://alist.wyf9.top/alidrive/dl/programs/devcpp/Dev-Cpp-5.16i-x64.exe)
 
 32 位系统: 请 [自行寻找其他版本](https://cn.bing.com/search?q=dev+cpp+32%E4%BD%8D%E5%AE%89%E8%A3%85)
+-->
 
 2. (可选)进行基本配置
 
 #### **Linux**
 
-?> 以下使用 `Ubuntu` / `Debian` 系分支演示, 其他分支可参考或 [自行搜索](https://cn.bing.com/search?q=linux%E6%90%AD%E5%BB%BAc%2B%2B%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83)
+?> 以下使用 `Ubuntu` 系统演示, 其他分支可参考或 [自行搜索](https://cn.bing.com/search?q=linux%E6%90%AD%E5%BB%BAc%2B%2B%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83)
 
-##### 步骤
+##### 安装
 
-1. 安装编译工具链: 使用 `apt` 安装 `g++` 和 `make`
+只需要安装 `g++` 和 `make` 两个软件包即可
 
 ```shell
 sudo apt update
 sudo apt install g++ make
 ```
-
-2. 没了
-> 没了? 没了 只需安装这两个软件包即可
 
 ##### 使用
 
