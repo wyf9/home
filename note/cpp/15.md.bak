@@ -24,13 +24,13 @@ cout << true << endl;
 cout << false << endl;
 ```
 
-<output data-lang="output">
+```output
 
 1
 
 0
 
-</output>
+```
 
 ### 示例
 
@@ -55,6 +55,6 @@ int main() {
 }
 ```
 
-<output data-lang="output">
+```output
 
-</output>
+```

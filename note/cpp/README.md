@@ -116,11 +116,11 @@ int main() {
 ##### 本站输出框
 
 ```md
-<output data-lang="output">
+```output
 
-</output>
+```
 ```
 
-<output data-lang="output">
+```output
 
-</output>
+```

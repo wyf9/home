@@ -19,7 +19,7 @@
 cout << "aaa\nbbb\nccc";
 ```
 
-<output data-lang="output">
+```output
 
 aaa
 
@@ -27,7 +27,7 @@ bbb
 
 ccc
 
-</output>
+```
 
 ##### 水平制表符
 
@@ -39,7 +39,7 @@ cout << "aaa\tbb\n";
 cout << "a\tbb\n";
 ```
 
-<output data-lang="output">
+```output
 
 aaaaa   bbb
 
@@ -47,7 +47,7 @@ aaa     bb
 
 a       bb
 
-</output>
+```
 
 ### 示例
 
@@ -66,7 +66,7 @@ int main() {
 }
 ```
 
-<output data-lang="output">
+```output
 
 hello world
 
@@ -78,4 +78,4 @@ aaa     bb
 
 a       bb
 
-</output>
+```

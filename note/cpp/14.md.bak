@@ -54,10 +54,10 @@ int main() {
 }
 ```
 
-<output data-lang="output">
+```output
 
 abc
 
 def
 
-</output>
+```
