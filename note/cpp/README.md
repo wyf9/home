@@ -113,14 +113,16 @@ int main() {
 }
 ```
 
-##### 本站输出框
+##### 点击展开
 
 ```md
-```output
-
+<details>
+<summary>点击展开</summary>
+此处为内容
+</details>
 ```
-```
 
-```output
-
-```
+<details>
+<summary>点击展开</summary>
+此处为内容
+</details>
