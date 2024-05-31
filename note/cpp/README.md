@@ -97,11 +97,6 @@
 
 ##### 解题模板
 
-<div id="copy-2"><a href="javascript:copym('#include <iostream>\nusing namespace std;\nint main() {\n    // 1. 定义变量\n\n    // 2. 输入数据\n\n    // 3. 计算或处理数据\n\n    // 4. 输出结果\n\n    return 0;\n}', 'copy-2', '复制成功', 1000)">点击复制</a></div>
-
-<details>
-<summary>Show</summary>
-
 ```cpp
 #include <iostream>
 using namespace std;
@@ -118,4 +113,14 @@ int main() {
 }
 ```
 
-</details>
+##### 本站输出框
+
+```md
+<output data-lang="output">
+
+</output>
+```
+
+<output data-lang="output">
+
+</output>
