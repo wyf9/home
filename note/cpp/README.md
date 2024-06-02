@@ -12,7 +12,9 @@
 
 ##### 题解模板
 
-<div id="copy-1"><a href="javascript:copym('**程序名**: \n\n**题目描述**: \n\n**输入**: \n\n**输出**: \n\n**样例输入**:\n```text\n\n```\n\n**样例输出**:\n```text\n\n```', 'copy-1', '复制成功', 1000)">点击复制</a></div>
+<div id="copy-1"><a href="javascript:copym('**ProblemID**: ``\n\n**程序名**: \n\n**题目描述**: \n\n**输入**: \n\n**输出**: \n\n**样例输入**:\n```text\n\n```\n\n**样例输出**:\n```text\n\n```', 'copy-1', '复制成功', 1000)">点击复制</a></div>
+
+<div id="copy-2"><a href="javascript:copym('**程序名**: \n\n**题目描述**: \n\n**输入**: \n\n**输出**: \n\n**样例输入**:\n```text\n\n```\n\n**样例输出**:\n```text\n\n```', 'copy-2', '复制成功', 1000)">点击复制 (Without ProblemID)</a></div>
 
 !> 请直接使用上面的按钮复制即可忽略 `\`
 
@@ -20,6 +22,8 @@
 <summary>Show</summary>
 
 ```md
+**ProblemID**: ``
+
 **程序名**: 
 
 **题目描述**: 

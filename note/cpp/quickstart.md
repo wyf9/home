@@ -53,4 +53,4 @@ g++ -o myprogram mycode.cpp
 
 <!-- tabs:end -->
 
-> -> [1. 第一个 C++ 程序](1.md)
+> -> [1. 第一个 C++ 程序](1-1.md)
