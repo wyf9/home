@@ -32,7 +32,7 @@ def alter(file, old_str, new_str):
         f.write(file_data)
 
 
-if not env.get("CF_PAGES") == 1:
+if not int(env.get("CF_PAGES")) == 1:
     err("Not CF Pages, exiting.")
     exit(1)
 
@@ -43,4 +43,4 @@ alter("./index.html", "<build_branch>", env.get('CF_PAGES_BRANCH'))
 alter("./index.html", "<build_time>", datetime.now().strftime('[%Y-%m-%d %H:%M:%S]'))
 
 
-info("Wrote build time")
+info("Wrote build info ok")
