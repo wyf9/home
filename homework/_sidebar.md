@@ -1,4 +1,3 @@
 - SideBar - /homework
   - [[Back]](../)
-  - [MiddleArtHomeworks](art.md)
-  - [MiddleComputerHomeworks](comp.md)
+  - [2024暑期作业](2023-2024-holiday.md)

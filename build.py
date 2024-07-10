@@ -36,11 +36,11 @@ if not int(env.get("CF_PAGES")) == 1:
     err("Not CF Pages, exiting.")
     exit(1)
 
-alter("./index.html", "<build>", env.get('CF_PAGES_COMMIT_SHA'))
+alter("./index.html", "<ENV_build>", env.get('CF_PAGES_COMMIT_SHA'))
 
-alter("./index.html", "<build_branch>", env.get('CF_PAGES_BRANCH'))
+alter("./index.html", "<ENV_build_branch>", env.get('CF_PAGES_BRANCH'))
 
-alter("./index.html", "<build_time>", datetime.now().strftime('[%Y-%m-%d %H:%M:%S]'))
+alter("./index.html", "<ENV_build_time>", datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 
 
 info("Wrote build info ok")
