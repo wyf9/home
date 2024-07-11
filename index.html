@@ -66,6 +66,7 @@ function parseDate(input) {
                         const timeDiff = Math.abs(today.getTime() - startDate.getTime());
                         const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 将毫秒转换为天数并向上取整
                         const dateDiff = `本站已运行 ${diffDays} 天`
+                        const buildInfo = 'Build: [[ENV_build]](https://github.com/wyf9/home/commit/<ENV_build>)@[ENV_build_branch] - [ENV_build_time]'
                         
                         /*fetch('https://v1.hitokoto.cn')
                           .then(response => response.json())
@@ -89,7 +90,7 @@ function parseDate(input) {
                             '\n\n' +
                             dateDiff + 
                             '\n\n' + 
-                            'Build: [<ENV_build>](https://github.com/wyf9/home/commit/<ENV_build>)@<ENV_build_branch> - <ENV_build_time>'
+                            buildInfo
                             // + sentence
                         );
                     });
