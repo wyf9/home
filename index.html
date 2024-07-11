@@ -1,74 +1,78 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/src/docsify/css/vue.css">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/docsify/css/vue.css" />
     <script src="/src/docsify/vue.global.prod.js"></script>
-    <meta http-equiv="Cache-Control" content="max-age=0">
-    <meta name='description' content="wyf9's Homepage">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-</head>
+    <meta http-equiv="Cache-Control" content="max-age=0" />
+    <meta name="description" content="wyf9's Homepage" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
+  </head>
 
-<script>
-// 日期字符串转换为日期对象的函数
-function parseDate(input) {
-    var parts = input.split('-');
-    // 注意：月份需要减去 1，因为 JavaScript 中月份是从 0 开始计数的
-    return new Date(parts[0], parts[1] - 1, parts[2]);
-}
-</script>
+  <script>
+    // 日期字符串转换为日期对象的函数
+    function parseDate(input) {
+      var parts = input.split("-");
+      // 注意：月份需要减去 1，因为 JavaScript 中月份是从 0 开始计数的
+      return new Date(parts[0], parts[1] - 1, parts[2]);
+    }
+  </script>
 
-<body>
+  <body>
     <div id="app">Loading</div>
     <script>
-        window.$docsify = {
-            //...
-            relativePath: true,
-            onlyCover: false,
-            loadSidebar: true,
-            subMaxLevel: 4,
-            loadNavbar: false,
-            repo: "wyf9/home",
-            maxLevel: 6,
-            auto2top: true,
-            executeScript: true,
-            notFoundPage: true,
-            
-            search: 'auto',
-            coverpage: true,
-            count: {
-                countable: true,
-                fontsize: '0.9em',
-                color: 'rgb(90,90,90)',
-                language: 'chinese'
-            },
-            tabs: {
-                theme: 'material'
-            },
-               plugins: [
-                function(hook, vm) {
-                    hook.beforeEach(function(html) {
-                        var url = 'https://github.com/wyf9/home/blob/main/' + vm.route.file;
-                        var editHtml = '📝 [在 GitHub 上编辑 / Edit on GitHub](' + url + ')';
-                        
-                        const ctext = "Copyright ©(year) [wyf9](https://wyf9.top). All Rights Reserved.";
-                        const powered = "Powered by [Docsify](https://docsify.js.org) / [Cloudflare Pages](https://pages.cloudflare.com)"
-                        const currentYear = new Date().getFullYear();
-                        const rtxt = ctext.replace('(year)', currentYear);
-                        
-                        // 创建某日和今天的日期对象
-                        const startDate = parseDate('2024-02-13'); // 替换为您要计算的某日
-                        const today = new Date();
-                        // 计算时间差
-                        const timeDiff = Math.abs(today.getTime() - startDate.getTime());
-                        const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 将毫秒转换为天数并向上取整
-                        const dateDiff = `本站已运行 ${diffDays} 天`
-                        const buildInfo = 'Build: [[ENV_build]](https://github.com/wyf9/home/commit/<ENV_build>)@[ENV_build_branch] - [ENV_build_time]'
-                        
-                        /*fetch('https://v1.hitokoto.cn')
+      window.$docsify = {
+        //...
+        relativePath: true,
+        onlyCover: false,
+        loadSidebar: true,
+        subMaxLevel: 4,
+        loadNavbar: false,
+        repo: "wyf9/home",
+        maxLevel: 6,
+        auto2top: true,
+        executeScript: true,
+        notFoundPage: true,
+
+        search: "auto",
+        coverpage: true,
+        count: {
+          countable: true,
+          fontsize: "0.9em",
+          color: "rgb(90,90,90)",
+          language: "chinese",
+        },
+        tabs: {
+          theme: "material",
+        },
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
+              var url =
+                "https://github.com/wyf9/home/blob/main/" + vm.route.file;
+              var editHtml =
+                "📝 [在 GitHub 上编辑 / Edit on GitHub](" + url + ")";
+
+              const ctext =
+                "Copyright ©(year) [wyf9](https://wyf9.top). All Rights Reserved.";
+              const powered =
+                "Powered by [Docsify](https://docsify.js.org) / [Cloudflare Pages](https://pages.cloudflare.com)";
+              const currentYear = new Date().getFullYear();
+              const rtxt = ctext.replace("(year)", currentYear);
+
+              // 创建某日和今天的日期对象
+              const startDate = parseDate("2024-02-13"); // 替换为您要计算的某日
+              const today = new Date();
+              // 计算时间差
+              const timeDiff = Math.abs(today.getTime() - startDate.getTime());
+              const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 将毫秒转换为天数并向上取整
+              const dateDiff = `本站已运行 ${diffDays} 天`;
+              const buildInfo =
+                "Build: [[ENV_build]](https://github.com/wyf9/home/commit/[ENV_build])@[ENV_build_branch] - [ENV_build_time]";
+
+              /*fetch('https://v1.hitokoto.cn')
                           .then(response => response.json())
                           .then(data => {
                             if (data.from_who == null) {
@@ -79,39 +83,47 @@ function parseDate(input) {
                           }})
                           .catch(console.error)
                             */
-                        return (
-                            html +
-                            '\n\n----\n\n' +
-                            editHtml +
-                            '\n\n' +
-                            rtxt +
-                            '\n\n' +
-                            powered +
-                            '\n\n' +
-                            dateDiff + 
-                            '\n\n' + 
-                            buildInfo
-                            // + sentence
-                        );
-                    });
-                }
-            ]
-        };
+              return (
+                html +
+                "\n\n----\n\n" +
+                editHtml +
+                "\n\n" +
+                rtxt +
+                "\n\n" +
+                powered +
+                "\n\n" +
+                dateDiff +
+                "\n\n" +
+                buildInfo
+                // + sentence
+              );
+            });
+          },
+        ],
+      };
     </script>
 
     <script src="/src/docsify/docsify.js"></script>
 
     <script src="/src/docsify/lib/emoji.js"></script>
-    <script src="/src/docsify/lib/search.js"></script> 
-    <script src="/src/docsify/lib/external-script.js"></script> 
+    <script src="/src/docsify/lib/search.js"></script>
+    <script src="/src/docsify/lib/external-script.js"></script>
     <script src="/src/docsify/lib/zoom-image.js"></script>
     <script src="/src/docsify/lib/docsify-copy-code.js"></script>
     <script src="/src/docsify/lib/countable.js"></script>
     <script src="/src/docsify/lib/docsify-scroll-to-top.js"></script>
     <script src="/src/docsify/lib/docsify-tabs.js"></script>
 
-    <link rel="stylesheet" href="/src/docsify/css/docsify-darklight-theme-style.css" title="docsify-darklight-theme" type="text/css" />
-    <script src="/src/docsify/lib/docsify-darklight-theme.js" type="text/javascript"></script>
+    <link
+      rel="stylesheet"
+      href="/src/docsify/css/docsify-darklight-theme-style.css"
+      title="docsify-darklight-theme"
+      type="text/css"
+    />
+    <script
+      src="/src/docsify/lib/docsify-darklight-theme.js"
+      type="text/javascript"
+    ></script>
 
     <script src="/src/js/copy.js" defer></script>
     <script src="/src/js/copyn.js" defer></script>
@@ -139,13 +151,10 @@ function parseDate(input) {
     <script src="/src/docsify/prism/prism-c.min.js" defer></script>
     <script src="/src/docsify/prism/prism-cpp.min.js" defer></script>
 
-
     <style>
-        :root {
-            --docsifytabs-tab-highlight-color: green;
-        }
+      :root {
+        --docsifytabs-tab-highlight-color: green;
+      }
     </style>
-
-</body>
+  </body>
 </html>
-
