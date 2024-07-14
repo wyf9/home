@@ -1,5 +1,6 @@
 - SideBar - note / cpp
   - [ReadMe](README.md)
+  - [SideBar](_sidebar.md)
   - [QuickStart](quickstart.md)
   - [[Back]](../)
 
