@@ -14,6 +14,25 @@
 
 ---
 
+带有 `ProblemID` 的题目代表存在于 OJ 系统中，可用下面的链接打开:
+
+```
+http://oj.xw3q.cn:9902/problem.php?id=<id>
+```
+
+> 将 `<id>` 替换为 ProblemID
+
+<div id="copy-3-id"><a href="javascript:copym('http://oj.xw3q.cn:9902/problem.php?id=', 'copy-3-id', '复制成功', 1000)">点击复制</a> <code>id</code> 前的部分</div>
+
+> or:
+
+<!-- script is in index: #1 p_note_cpp_readme_jump() -->
+
+<input type="number" id="inputBox" name="inputBox" placeholder="ProblemID">
+<button onclick="p_note_cpp_readme_jump()">跳转</button>
+
+---
+
 ### Useful
 
 ##### 题解模板
