@@ -6,7 +6,8 @@ from datetime import datetime
 
 
 c_basepath = '/mnt/usb16/dev/wyf9/home/note/cpp/'
-c_subs = 2
+
+c_subs = input('input all units: ')#3
 
 # ----------
 
@@ -16,8 +17,8 @@ def info(log):
 
 
 def run(cmd):
-    info(f'Running: echo cd {c_basepath} && {cmd}')
-    os.system(f'echo cd {c_basepath} && {cmd}')
+    info(f'Running: `cd {c_basepath} && {cmd}`')
+    os.system(f'cd {c_basepath} && {cmd}')
 
 
 def Main():
