@@ -7,7 +7,7 @@ from datetime import datetime
 
 c_basepath = '/mnt/usb16/dev/wyf9/home/note/cpp/'
 
-c_subs = input('input all units: ')#3
+c_subs = int(input('input all units: '))#3
 
 # ----------
 
