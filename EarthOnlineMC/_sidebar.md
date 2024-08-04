@@ -1,0 +1,4 @@
+- SideBar - /EarthOnlineMC
+  - [Back](../)
+  - [Home](README.md)
+  - [Command](command.md)
