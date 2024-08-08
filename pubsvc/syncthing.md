@@ -1,6 +1,6 @@
 # syncthing
 
-Running on wyf9's Serv00 server
+Running on wyf9's Serv00 server (#7)
 
 expire: `2034-07-28`
 

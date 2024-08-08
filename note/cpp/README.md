@@ -16,7 +16,7 @@
 
 <!--
 no test:
-2-10 to 2-12
+2-10 to 2-24
 3-1 to 3-6
 
 undone:
@@ -58,12 +58,12 @@ undone:
 带有 `ProblemID` 的题目代表存在于 OJ 系统中，可用下面的链接打开:
 
 ```
-http://oj.xw3q.cn:9902/problem.php?id=<id>
+http://oj.xw3q.cn:9905/problem.php?id=<id>
 ```
 
 > 将 `<id>` 替换为 ProblemID
 
-<div id="copy-3-id"><a href="javascript:copym('http://oj.xw3q.cn:9902/problem.php?id=', 'copy-3-id', '复制成功', 1000)">点击复制</a> <code>id</code> 前的部分</div>
+<div id="copy-3-id"><a href="javascript:copym('http://oj.xw3q.cn:9905/problem.php?id=', 'copy-3-id', '复制成功', 1000)">点击复制</a> <code>id</code> 前的部分</div>
 
 > or:
 
