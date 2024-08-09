@@ -1,6 +1,8 @@
 - SideBar - table / py
   - [[Back]](../)
   - [Pygame Classes](./pygame/)
+
+- Manual
   - [常用函数](useful.md)
   - [Turtle](turtle.md)
   - [运算](calc.md)
