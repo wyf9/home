@@ -16,7 +16,6 @@
 
 <!--
 no test:
-2-11 to 2-24
 3-1 to 3-6
 
 undone:

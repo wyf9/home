@@ -46,6 +46,8 @@
 | `tracer` | (bool: `True` / `False`) | 设置追踪(即True时自动追踪更改显示, False时不追踪更改, 需要使用 `update` 来显示) |
 | `update` |  | 更新画面(一般在 `tracer(False)` 时使用) |
 | `write` | (str: `text`), [tuple: font (str: `name`, int: `size`, str: `type`)] | 直接显示文字 ([参数说明](#write)) |
+| `setheading` | (int:`to_angle`) | 将画笔朝向角度设为 `to_angle` *(正右边为 `0`, 逆时针增加)* |
+| `heading` |  | 获取画笔朝向角度 |
 
 ### 状态获取
 
