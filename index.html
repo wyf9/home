@@ -10,6 +10,9 @@
   <meta http-equiv="Cache-Control" content="max-age=0" />
   <meta name="description" content="wyf9's Homepage" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
+
+
+
 </head>
 
 <script>
@@ -37,7 +40,7 @@
       executeScript: true,
       notFoundPage: true,
       search: "auto",
-      coverpage: true,
+      coverpage: false, // disable cover
       count: {
         countable: true,
         fontsize: "0.9em",
@@ -46,6 +49,16 @@
       },
       tabs: {
         theme: "material",
+      },
+      // 让你的内容页在滚动到指定的锚点时，距离页面顶部有一定空间。
+      topMargin: 25, // default: 0
+      // 回到顶部
+      scrollToTop: {
+        auto: true,
+        text: '🔼',
+        right: 12,
+        bottom: 52,
+        offset: 25
       },
       plugins: [
         function (hook, vm) {

@@ -1,5 +1,5 @@
 # Welcome
-
+<!--
 [Sites](#sites) / [Projects](#projects) / [Contact](#contact) / [About](#about)
 
 ***
@@ -21,7 +21,7 @@
 [个人 GitHub](https://github.com/wyf9?tab=repositories) or [组织 GitHub](https://github.com/orgs/wyf01239/repositories)
 
 ***
--->
+-- >
 # Contact
 
 - GitHub: [@wyf9](https://github.com/wyf9) / [@wyf01239](https://github.com/wyf01239)
@@ -31,3 +31,13 @@
 - WeChat: wyf91146
 
 ?> 迟早得改
+-->
+
+<head>
+    <title>Redircting...</title>
+    <meta http-equiv="Refresh" content="0; URL=/home/">
+</head>
+
+按理来说，你将被自动重定向到主页 (`home/`).
+
+如果没有，请单击 [此处](/home/ ':ignore') 以跳转.
