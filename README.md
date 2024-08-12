@@ -38,6 +38,6 @@
     <meta http-equiv="Refresh" content="0; URL=/home/">
 </head>
 
-按理来说，你将被自动重定向到主页 (`home/`).
+请稍候，你将被自动重定向到主页 (`home/`).
 
 如果没有，请单击 [此处](/home/ ':ignore') 以跳转.
