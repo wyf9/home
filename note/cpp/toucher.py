@@ -3,7 +3,9 @@
 
 import os
 import sys
-devdir = '/mnt/usb16/dev/'
+# devdir = '/mnt/usb16/dev/'
+devdir = '/sync/dev/'
+print(f'DevDir: {devdir}')
 
 if not len(sys.argv) < 2:
     un = sys.argv[1]
@@ -13,9 +15,7 @@ if not len(sys.argv) < 2:
     n2 = os.path.join(devdir, f'wyf9/home/note/cpp/{un}/{a}.md')
     n2d = os.path.join(devdir, f'wyf9/home/note/cpp/{un}/')
 
-    cmd = f'''
-mkdir -p {n1d} && mkdir -p {n2d} && touch {n1} && touch {n2} && echo "# {un}-{a}. " > {n2}
-'''
+    cmd = f'''mkdir -p {n1d} && mkdir -p {n2d} && touch {n1} && touch {n2} && echo "# {un}-{a}. " > {n2}'''
     print(f'run: `{cmd}`', end='')
     st = os.system(cmd)
     print(f' / stat: `{st}` /\n- {n1}\n- {n2}')
