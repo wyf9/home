@@ -1,3 +1,4 @@
 /t/status https://status.wyf9.top/
 /t/cpp /#/note/cpp/README 301
 /t/cpp/:unit/:class /#/note/cpp/:unit/:class 301
+/m/:name /mindmaps/:name 301
