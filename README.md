@@ -35,9 +35,15 @@
 
 <head>
     <title>Redircting...</title>
-    <meta http-equiv="Refresh" content="0; URL=/home/">
+    <meta http-equiv="Refresh" content="0; URL=https://github.com/wyf9">
 </head>
 
-请稍候，你将被自动重定向到主页 (`home/`).
 
-如果没有，请单击 [此处](/home/ ':ignore') 以跳转.
+请稍候，你将被自动重定向.
+
+Please wait, you will be auto redirect from here.
+
+
+如果没有，请单击 [此处](https://github.com/wyf9) 以跳转.
+
+If not, please click [here](https://github.com/wyf9)
