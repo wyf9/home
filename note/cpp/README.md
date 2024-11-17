@@ -61,12 +61,12 @@ undone:
 带有 `ProblemID` 的题目代表存在于 OJ 系统中，可用下面的链接打开:
 
 ```
-http://oj.xw3q.cn:9905/problem.php?id=<id>
+http://www.xw3q.cc/problem/<id>
 ```
 
 > 将 `<id>` 替换为 ProblemID
 
-<div id="copy-3-id"><a href="javascript:copym('http://oj.xw3q.cn:9905/problem.php?id=', 'copy-3-id', '复制成功', 1000)">点击复制</a> <code>id</code> 前的部分</div>
+<div id="copy-3-id"><a href="javascript:copym('http://www.xw3q.cc/problem/', 'copy-3-id', '复制成功', 1000)">点击复制</a> <code>&lt;id&gt;</code> 前的部分</div>
 
 > or:
 
