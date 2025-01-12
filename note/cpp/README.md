@@ -66,14 +66,7 @@ http://www.xw3q.cc/problem/<id>
 
 > 将 `<id>` 替换为 ProblemID
 
-<div id="copy-3-id"><a href="javascript:copym('http://www.xw3q.cc/problem/', 'copy-3-id', '复制成功', 1000)">点击复制</a> <code>&lt;id&gt;</code> 前的部分</div>
-
-> or:
-
-<!-- script is in index: #1 p_note_cpp_readme_jump() -->
-
-<input type="number" id="inputBox" name="inputBox" placeholder="ProblemID">
-<button onclick="p_note_cpp_readme_jump()">跳转</button>
+<div id="copy-3-id"><a href="javascript:copym('http://www.xw3q.cc/problem/', 'copy-3-id', '复制成功', 1000)">点击复制 URL</a></div>
 
 ---
 

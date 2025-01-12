@@ -67,8 +67,6 @@
 
             const ctext =
               "Copyright ©(year) [wyf9](https://wyf9.top). All Rights Reserved.";
-            const powered =
-              "Powered by [Docsify](https://docsify.js.org) / [Cloudflare Pages](https://pages.cloudflare.com)";
             const currentYear = new Date().getFullYear();
             const rtxt = ctext.replace("(year)", currentYear);
 
@@ -77,34 +75,20 @@
             const today = new Date();
             // 计算时间差
             const timeDiff = Math.abs(today.getTime() - startDate.getTime());
-            const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 将毫秒转换为天数并向上取整
+            const diffDays = Math.ceil(timeDiff / (1000 * 86400)); // 将毫秒转换为天数并向上取整
             const dateDiff = `本站已运行 ${diffDays} 天`;
-            const buildInfo =
-              "Build: [[ENV_build]](https://github.com/wyf9/home/commit/[ENV_build])@[ENV_build_branch] - [ENV_build_time] (UTC)";
-
-            /*fetch('https://v1.hitokoto.cn')
-                        .then(response => response.json())
-                        .then(data => {
-                          if (data.from_who == null) {
-                            sentence = `\n\n${data.hitokoto} --「${data.from}」 [[Hitokoto]](https://hitokoto.cn/?uuid=${data.uuid})`
-                          }
-                          else {
-                            sentence = `\n\n${data.hitokoto} -- ${data.from_who}「${data.from}」[[Hitokoto]](https://hitokoto.cn/?uuid=${data.uuid})`
-                        }})
-                        .catch(console.error)
-                          */
+            const buildInfo = "[[ENV_build]](https://github.com/wyf9/home/commit/[ENV_build_full])";
             return (
               html +
-              "\n\n----\n\n" +
+              "\n\n----\n\n**" +
               editHtml +
-              "\n\n" +
+              "**\n\n**" +
               rtxt +
-              "\n\n" +
-              powered +
-              "\n\n" +
+              "** · **" +
               dateDiff +
-              "\n\n" +
-              buildInfo
+              "** · **" +
+              buildInfo +
+              "**"
               // + sentence
             );
           });
@@ -128,30 +112,30 @@
     type="text/css" />
   <script src="/src/docsify/lib/docsify-darklight-theme.js" type="text/javascript"></script>
 
-  <script src="/src/js/copy.js" defer></script>
-  <script src="/src/js/copyn.js" defer></script>
+  <!-- <script src="/src/js/copy.js" defer></script> -->
+  <!-- <script src="/src/js/copyn.js" defer></script> -->
   <script src="/src/js/copym.js" defer></script>
-  <script src="/src/js/copyright.js"></script>
+  <!-- <script src="/src/js/copyright.js"></script> -->
 
   <!-- Prism Code Highlight -->
   <script src="/src/docsify/prism/prism-css.min.js" defer></script>
   <script src="/src/docsify/prism/prism-bash.min.js" defer></script>
   <script src="/src/docsify/prism/prism-batch.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-csv.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-docker.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-git.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-http.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-icon.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-ignore.min.js" defer></script>
+  <!-- <script src="/src/docsify/prism/prism-csv.min.js" defer></script> -->
+  <!-- <script src="/src/docsify/prism/prism-docker.min.js" defer></script> -->
+  <!-- <script src="/src/docsify/prism/prism-git.min.js" defer></script> -->
+  <!-- <script src="/src/docsify/prism/prism-http.min.js" defer></script> -->
+  <!-- <script src="/src/docsify/prism/prism-icon.min.js" defer></script> -->
+  <!-- <script src="/src/docsify/prism/prism-ignore.min.js" defer></script> -->
   <script src="/src/docsify/prism/prism-ini.min.js" defer></script>
   <script src="/src/docsify/prism/prism-json.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-json5.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-powershell.min.js" defer></script>
+  <!-- <script src="/src/docsify/prism/prism-json5.min.js" defer></script> -->
+  <!-- <script src="/src/docsify/prism/prism-powershell.min.js" defer></script> -->
   <script src="/src/docsify/prism/prism-python.min.js" defer></script>
   <script src="/src/docsify/prism/prism-systemd.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-visual-basic.min.js" defer></script>
+  <!-- <script src="/src/docsify/prism/prism-visual-basic.min.js" defer></script> -->
   <script src="/src/docsify/prism/prism-yaml.min.js" defer></script>
-  <script src="/src/docsify/prism/prism-c.min.js" defer></script>
+  <!-- <script src="/src/docsify/prism/prism-c.min.js" defer></script> -->
   <script src="/src/docsify/prism/prism-cpp.min.js" defer></script>
 
   <style>
@@ -159,15 +143,6 @@
       --docsifytabs-tab-highlight-color: green;
     }
   </style>
-
-  <!-- function #1 used by /note/cpp/README.md - jump-->
-  <script>
-    function p_note_cpp_readme_jump() {
-      var inputValue = document.getElementById("inputBox").value;
-      var url = "http://www.xw3q.cc/problem/" + inputValue;
-      window.location.href = url;
-    }
-  </script>
 
 </body>
 
