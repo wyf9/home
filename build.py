@@ -4,15 +4,15 @@ from os import environ as env
 
 
 def info(log):
-    print(f'[build.py] [Info] {datetime.now().strftime('[%Y-%m-%d %H:%M:%S]')} ' + log)
+    print(f'[build.py] [Info] {datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")} ' + log)
 
 
 def warn(log):
-    print(f'[build.py] [Warning] {datetime.now().strftime('[%Y-%m-%d %H:%M:%S]')} ' + log)
+    print(f'[build.py] [Warning] {datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")} ' + log)
 
 
 def err(log):
-    print(f'[build.py] [Error] {datetime.now().strftime('[%Y-%m-%d %H:%M:%S]')} ' + log)
+    print(f'[build.py] [Error] {datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")} ' + log)
 
 # ---------
 # replace index.html
