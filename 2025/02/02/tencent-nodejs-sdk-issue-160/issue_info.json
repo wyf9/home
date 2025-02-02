@@ -1,0 +1,8 @@
+{
+    "repo": "TencentCloud/tencentcloud-sdk-nodejs",
+    "issue_id": 160,
+    "username": "batchor",
+    "title": "你们是把***打包了吗？",
+    "body": "一个微信在Windows上都可以占10G的储存。\n\n一个sdk打包都快100M了, 看看别人aws 13M 的sdk吧, 好哥哥们.\n\n你们是比营收比 aws 高, 还是功能比 aws 丰富, 还是技术比aws更牛啊？你们就跟着aws抄你不会吗？\n\n```\ncd node_modules && du -sh * | sort -h\n\n13M\t    @aws-sdk\n.\n.\n.\n12M     prisma\n13M     @types\n17M     @sentry\n23M     typescript\n29M     @opentelemetry\n38M     @prisma\n85M     tencentcloud-sdk-nodejs\n```\n\n\n进去一看吓一跳，\n把 `src` 和 `tencentcloud` 都打包进去，两个changelog加起来快10m了也打包进去，还他妈把 test 打包进去, examples 也打包进去. 你们写代码到底用了脑子没有啊？？\n\n```\ncd node_modules/tencentcloud-sdk-nodejs && du -sh * | sort -h\n\n537K\texamples\n3.9M\ttest\n4.9M\tSERVICE_CHANGELOG.md\n5.1M\tCHANGELOG.md\n28M\t        src\n34M\t        tencentcloud\n```\n\n你们招聘要求这么高，搞这么多人天天加班，最后搞出这么个b玩意儿吗？真蠢真菜，活该天天加班啊菜b们。\n\n___\n\n好好想想吧，我的T9 T10 T12们，为什么你们搞的这些东西，在我看来都是垃圾。\n\n还有你们这个版本号，从 `4.0.1` 到 `4.0.1021`，这他妈的是什么样的脑子想出来的？ \n\n你们菜，不会，但是你可以学啊，你们随便找个流行的开源的项目看看别人的版本号是怎么管理的，行吗？\n\n___\n你们就跟着 aws, cloudflare 这些云平台的 sdk 一字一句抄不行吗，别人的sdk都是开源的，你去抄你不会吗？\n\namazon cloudflare 五年股价都翻了好几倍了，你们这股价一年不如一年，你们难道就真的没有责任吗，彩笔们？\n\n___\n\n好好想想吧, 我的好哥哥们. 天天加班, 时间都花在什么上了. 为什么人家 AWS wlb, 天天冲着浪划着雪就把你们 KO 了.",
+    "comment_count": 2317
+}
