@@ -1,4 +1,12 @@
-/t/status https://status.wyf9.top/
-/t/cpp /#/note/cpp/README 301
-/t/cpp/:unit/:class /#/note/cpp/:unit/:class 301
-/m/:name /mindmaps/:name 301
+# sleepy
+/t/sleepy/dc https://discord.gg/DyBY6gwkeg
+/t/sleepy/tg https://t.me/wyf9_sleepy
+/t/sleepy/qq https://qm.qq.com/q/uItkv96Wn6
+/t/sleepy/bug https://github.com/wyf9/sleepy/issues/new?template=1-bug-report.yml
+/t/sleepy/feature https://github.com/wyf9/sleepy/issues/new?template=2-feature-request.yml
+/t/sleepy/security https://github.com/wyf9/sleepy/security/policy
+
+# Others
+/t/cpp /#/note/cpp/README
+/t/cpp/:unit/:class /#/note/cpp/:unit/:class
+/m/:name /mindmaps/:name

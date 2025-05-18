@@ -1,7 +1,16 @@
 # Contact
 
-- GitHub: [@wyf9](https://github.com/wyf9)
-- Discord: [@wyf9](https://discord.com/users/992995849946804304) / [Invite](https://discord.gg/mdGamAxC7U)
-- [E-mail](mailto:wyf9@wyf9.top): `wyf9@wyf9.top`
-- [QQ](https://tenapi.cn/v2/qqcard?qq=2191161566): `2191161566` - *新版电脑 QQ 无法使用链接打开*
-- WeChat: wyf91146
+<head>
+    <title>Redircting...</title>
+    <meta http-equiv="Refresh" content="0; URL=https://siiway.top/members/wyf9.html#contact">
+</head>
+
+
+请稍候，你将被自动重定向.
+
+Please wait, you will be auto redirect from here.
+
+
+如果没有，请单击 [此处](https://siiway.top/members/wyf9.html#contact) 以跳转.
+
+If not, please click [here](https://siiway.top/members/wyf9.html#contact)
